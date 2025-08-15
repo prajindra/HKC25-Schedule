@@ -392,7 +392,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                             )}
                             <div className="flex-1">
                               <h5 className="font-semibold text-gray-800 mb-1 text-sm leading-tight">
-                                {session.agenda.split('\\n').map((line, lineIndex) => (
+                                {(session.agenda ?? '').split('\n').map((line: string, lineIndex: number) => (
                                   <div key={lineIndex}>{line}</div>
                                 ))}
                               </h5>
