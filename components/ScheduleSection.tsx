@@ -157,17 +157,6 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                       </div>
                     )}
 
-                    {/* Centered image at top for HH Jayapataka Swami */}
-                    {isJayapatakaSwami(item.agenda) && (
-                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
-                        <img
-                          src="/images/speakers/HHJPS.png"
-                          alt="HH Jayapataka Swami"
-                          className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
-                        />
-                      </div>
-                    )}
-
                     {/* Centered image at top for HG Maha Varaha prabhu */}
                     {isMahaVaraha(item.agenda) && (
                       <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
