@@ -172,7 +172,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                     {isMahaVaraha(item.agenda) && (
                       <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                         <img
-                          src="/images/speakers/MahaVaraha.png"
+                          src="/images/speakers/MahaVarahav2.png"
                           alt="HG Maha Varaha prabhu"
                           className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                         />
@@ -360,7 +360,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                           {isMahaVaraha(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                               <img
-                                src="/images/speakers/MahaVaraha.png"
+                                src="/images/speakers/MahaVarahav2.png"
                                 alt="HG Maha Varaha prabhu"
                                 className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                               />
