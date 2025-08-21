@@ -72,6 +72,21 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
     return agenda.toLowerCase().includes('bhakti prachar parivrajak swami');
   };
 
+  // Function to check if session involves HG Maha Varaha prabhu
+  const isMahaVaraha = (agenda: string) => {
+    return agenda.toLowerCase().includes('maha varaha');
+  };
+
+  // Function to check if session involves HG Jagadhananda prabhu
+  const isJagadhananda = (agenda: string) => {
+    return agenda.toLowerCase().includes('jagadhananda');
+  };
+
+  // Function to check if session involves HH Jayapataka Swami
+  const isJayapatakaSwami = (agenda: string) => {
+    return agenda.toLowerCase().includes('jayapataka swami');
+  };
+
   // Function to check if session involves HG Nitai Priya prabhu (only for Youth Yoga Session on Day 2)
   const isNitaiPriya = (agenda: string) => {
     return activeDay === 2 && agenda.toLowerCase().includes('nitai priya') && agenda.toLowerCase().includes('yoga');
@@ -137,6 +152,39 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                         <img
                           src="https://static.readdy.ai/image/465851cfd5d255a5b0940b68d8aff6fb/66d923ca282b1bc657cbe62f9b919513.png"
                           alt="HH Bhakti Vinoda Swami"
+                          className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                        />
+                      </div>
+                    )}
+
+                    {/* Centered image at top for HH Jayapataka Swami */}
+                    {isJayapatakaSwami(item.agenda) && (
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                        <img
+                          src="/images/speakers/HHJPS.png"
+                          alt="HH Jayapataka Swami"
+                          className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                        />
+                      </div>
+                    )}
+
+                    {/* Centered image at top for HG Maha Varaha prabhu */}
+                    {isMahaVaraha(item.agenda) && (
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                        <img
+                          src="/images/speakers/MahaVaraha.png"
+                          alt="HG Maha Varaha prabhu"
+                          className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                        />
+                      </div>
+                    )}
+
+                    {/* Centered image at top for HG Jagadhananda prabhu */}
+                    {isJagadhananda(item.agenda) && (
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                        <img
+                          src="/images/speakers/Jagadhananda.png"
+                          alt="HG Jagadhananda prabhu"
                           className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                         />
                       </div>
@@ -292,6 +340,39 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                               <img
                                 src="https://static.readdy.ai/image/465851cfd5d255a5b0940b68d8aff6fb/66d923ca282b1bc657cbe62f9b919513.png"
                                 alt="HH Bhakti Vinoda Swami"
+                                className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                              />
+                            </div>
+                          )}
+
+                          {/* Centered image at top for HH Jayapataka Swami */}
+                          {isJayapatakaSwami(item.agenda) && (
+                            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                              <img
+                                src="/images/speakers/HHJPS.png"
+                                alt="HH Jayapataka Swami"
+                                className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                              />
+                            </div>
+                          )}
+
+                          {/* Centered image at top for HG Maha Varaha prabhu */}
+                          {isMahaVaraha(item.agenda) && (
+                            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                              <img
+                                src="/images/speakers/MahaVaraha.png"
+                                alt="HG Maha Varaha prabhu"
+                                className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                              />
+                            </div>
+                          )}
+
+                          {/* Centered image at top for HG Jagadhananda prabhu */}
+                          {isJagadhananda(item.agenda) && (
+                            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                              <img
+                                src="/images/speakers/Jagadhananda.png"
+                                alt="HG Jagadhananda prabhu"
                                 className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                               />
                             </div>
