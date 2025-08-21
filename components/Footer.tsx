@@ -20,12 +20,12 @@ export default function Footer() {
             <div className="space-y-2 text-purple-200">
               <div className="flex items-center justify-center">
                 <i className="ri-mail-line mr-2 w-5 h-5 flex items-center justify-center"></i>
-                <span>info@hkcmalaysia.org</span>
+                <span>info.nationalconvention@gmail.com</span>
               </div>
-              <div className="flex items-center justify-center">
+{/*               <div className="flex items-center justify-center"> 
                 <i className="ri-phone-line mr-2 w-5 h-5 flex items-center justify-center"></i>
                 <span>+60 3-1234 5678</span>
-              </div>
+              </div> */}
               <div className="flex items-center justify-center">
                 <i className="ri-map-pin-line mr-2 w-5 h-5 flex items-center justify-center"></i>
                 <span>TODU, Malaysia</span>
