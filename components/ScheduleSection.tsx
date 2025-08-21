@@ -346,7 +346,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                           )}
 
                           {/* Centered image at top for HH Jayapataka Swami */}
-                          {isJayapatakaSwami(item.agenda) && (
+                          {isJayapatakaSwami(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                               <img
                                 src="/images/speakers/HHJPS.png"
@@ -357,7 +357,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                           )}
 
                           {/* Centered image at top for HG Maha Varaha prabhu */}
-                          {isMahaVaraha(item.agenda) && (
+                          {isMahaVaraha(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                               <img
                                 src="/images/speakers/MahaVaraha.png"
@@ -368,7 +368,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                           )}
 
                           {/* Centered image at top for HG Jagadhananda prabhu */}
-                          {isJagadhananda(item.agenda) && (
+                          {isJagadhananda(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                               <img
                                 src="/images/speakers/Jagadhananda.png"
