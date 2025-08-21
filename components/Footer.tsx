@@ -74,7 +74,7 @@ export default function Footer() {
               >
                 <i className="ri-youtube-fill text-2xl text-red-400 hover:text-red-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
               </a>
-              <i className="ri-twitter-x-line text-2xl text-gray-400 hover:text-gray-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
+              
             </div>
           </div>
           
