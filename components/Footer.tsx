@@ -50,9 +50,30 @@ export default function Footer() {
         <div className="border-t border-purple-800 pt-8 text-center">
           <div className="flex flex-wrap justify-center items-center space-x-6 mb-4">
             <div className="flex items-center space-x-2">
-              <i className="ri-facebook-circle-fill text-2xl text-blue-400 hover:text-blue-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
-              <i className="ri-instagram-line text-2xl text-pink-400 hover:text-pink-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
-              <i className="ri-youtube-fill text-2xl text-red-400 hover:text-red-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
+              <a 
+                href="https://facebook.com/malaysianhkc" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+              >
+                <i className="ri-facebook-circle-fill text-2xl text-blue-400 hover:text-blue-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
+              </a>
+              <a 
+                href="https://instagram.com/hkcmsia" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+              >
+                <i className="ri-instagram-line text-2xl text-pink-400 hover:text-pink-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
+              </a>
+              <a 
+                href="https://youtube.com/@nationalharekrishnaconvent1554" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+              >
+                <i className="ri-youtube-fill text-2xl text-red-400 hover:text-red-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
+              </a>
               <i className="ri-twitter-x-line text-2xl text-gray-400 hover:text-gray-300 cursor-pointer w-6 h-6 flex items-center justify-center"></i>
             </div>
           </div>
