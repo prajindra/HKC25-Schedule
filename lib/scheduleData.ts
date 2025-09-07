@@ -74,7 +74,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '6.00 - 7.00 pm', agenda: 'Dinner', venue: '-', type: 'meal' },
     { time: '7.00 pm', agenda: 'Preaching best practices', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '7.30 pm', agenda: 'Video Presentation', venue: 'Multi-purpose Hall', type: 'session' },
-    { time: '7.40 pm', agenda: 'New Initiative Launching (Mobile App & Web Portal) \\nPlenary Session: From Convention to Action Plan (HH Jayapataka Swami) \\nAuction of Limited Edition Spiritual Paraphernalia', venue: 'Multi-purpose Hall', type: 'session' },
+    { time: '7.40 pm', agenda: 'New Initiative Launching (Mobile App & Web Portal)\nPlenary Session: From Convention to Action Plan (HH Jayapataka Swami)\nAuction of Limited Edition Spiritual Paraphernalia', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '8.00 pm', agenda: 'Preaching Expo', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '9.30 pm', agenda: 'Kirtan by Nitai Priya prabhu', venue: 'Multi-purpose Hall', type: 'kirtan' }
   ],
