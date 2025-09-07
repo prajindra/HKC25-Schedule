@@ -87,6 +87,11 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
     return agenda.toLowerCase().includes('jayapataka swami');
   };
 
+  // Function to check if session involves HH Jayapataka Swami
+  const isSankarsanaGaura = (agenda: string) => {
+    return agenda.toLowerCase().includes('sankarsana gaura');
+  };
+
   // Function to check if session involves HG Nitai Priya prabhu (only for Youth Yoga Session on Day 2)
   const isNitaiPriya = (agenda: string) => {
     return activeDay === 2 && agenda.toLowerCase().includes('nitai priya') && agenda.toLowerCase().includes('yoga');
@@ -351,6 +356,17 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                               <img
                                 src="/images/speakers/MahaVarahav2.png"
                                 alt="HG Maha Varaha prabhu"
+                                className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                              />
+                            </div>
+                          )}
+
+                          {/* Centered image at top for HG Sankarsana Gaura prabhu */}
+                          {isSankarsanaGaura(session.agenda) && (
+                            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                              <img
+                                src="/images/speakers/SankarsanaGaura.png"
+                                alt="HG Sankarsana Gaura prabhu"
                                 className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                               />
                             </div>
