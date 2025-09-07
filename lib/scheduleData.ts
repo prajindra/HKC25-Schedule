@@ -32,7 +32,6 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '12.00 pm', agenda: 'Tamil Session 2 - Sadhana with Impact (HG Sankarsana Gaura prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '12.00 pm', agenda: 'Youth Session 2 - From Reels to Mission: Being a Devotee Online - Part 1 (HH Bhakti Vinoda Swami)', venue: 'Conference Hall', type: 'session' },
     { time: '12.00 pm', agenda: 'English Session 4 - Empowered to Preach: Inspirations from SP Lilamrta (HH Bhanu Swami)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
-    { time: '12.00 pm', agenda: 'Bengali Session (HH Bhakti Purusottama Swami)', venue: 'TBA', type: 'session' },
     { time: '1.30 - 2.30 pm', agenda: 'Lunch', venue: '-', type: 'meal' },
     { time: '3.00 - 4.30 pm', agenda: 'Rest', venue: '-', type: 'break' },
     { time: '4.45 pm', agenda: 'Workshop 1 English Session (HG Devakinandan prabhu)', venue: 'Sri Bala Murugan Temple Hall', type: 'workshop' },
