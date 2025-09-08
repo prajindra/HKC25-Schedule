@@ -375,9 +375,9 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                               />
                             </div>
                           )}
-                          
+
                           {/* Centered image at top for HG Balaram Govinda prabhu */}
-                          {isBalaramGovinda(item.agenda) && (
+                          {isBalaramGovinda(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                               <img
                                 src="/images/speakers/BalaramGovinda.png"
@@ -386,6 +386,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                               />
                             </div>
                           )}
+                          
                           {/* Centered image at top for HG Sankarsana Gaura prabhu */}
                           {isSankarsanaGaura(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
