@@ -29,7 +29,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '10.15 am', agenda: 'Youth Session 1 - Expanding Outreach by Empowering Each Other (HH Bhakti Prachar Parivrajak Swami)', venue: 'Conference Hall', type: 'session' },
     { time: '10.15 am', agenda: 'English Session 2 - Catur Sloki: Presenting BG in 4 verses as a Preacher (HH BVV Narasimha Swami)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
     { time: '12.00 pm', agenda: 'English Session 3 - The Art of Appreciative Preaching: Uplift Before You Teach (HG Devakinandan prabhu)', venue: 'Temple Hall', type: 'session' },
-    { time: '12.00 pm', agenda: 'Tamil Session 2 - Sadhana with Impact (HG Sankarsana Gaura prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
+    { time: '12.00 pm', agenda: 'Tamil Session 2 - Sadhana with Impact (HG Balaram Govinda prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '12.00 pm', agenda: 'Youth Session 2 - From Reels to Mission: Being a Devotee Online - Part 1 (HH Bhakti Vinoda Swami)', venue: 'Conference Hall', type: 'session' },
     { time: '12.00 pm', agenda: 'English Session 4 - Empowered to Preach: Inspirations from SP Lilamrta (HH Bhanu Swami)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
     { time: '1.30 - 2.30 pm', agenda: 'Lunch', venue: 'Prasadam Tent', type: 'meal' },
