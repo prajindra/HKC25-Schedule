@@ -100,6 +100,10 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
   const isNitaiPriya = (agenda: string) => {
     return activeDay === 2 && agenda.toLowerCase().includes('nitai priya') && agenda.toLowerCase().includes('yoga');
   };
+  // Function to check if session involves HG Pavan Nitai prabhu (only for Youth Yoga Session on Day 2)
+  const isPavanNitai = (agenda: string) => {
+    return agenda.toLowerCase().includes('pavan nitai');
+  };
 
   return (
     <section className="py-16 px-4">
@@ -194,6 +198,17 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                         <img
                           src="/images/speakers/Jagadhananda.png"
                           alt="HG Jagadhananda prabhu"
+                          className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                        />
+                      </div>
+                    )}
+
+                    {/* Centered image at top for HG Pavan Nitai prabhu */}
+                    {isPavanNitai(item.agenda) && (
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                        <img
+                          src="/images/speakers/PavanNitai.png"
+                          alt="HG Pavan Nitai prabhu"
                           className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                         />
                       </div>
@@ -481,6 +496,17 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                               <img
                                 src="https://static.readdy.ai/image/465851cfd5d255a5b0940b68d8aff6fb/411278b129e2310547ddc40744a2c6d6.png"
                                 alt="HG Nitai Priya prabhu"
+                                className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                              />
+                            </div>
+                          )}
+
+                          {/* Centered image at top for HG Pavan Nitai prabhu (Youth Yoga Session Day 2 only) */}
+                          {isPavanNitai(session.agenda) && (
+                            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                              <img
+                                src="h/images/speakers/PavanNitai.png"
+                                alt="HG Pavan Nitai prabhu"
                                 className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                               />
                             </div>
