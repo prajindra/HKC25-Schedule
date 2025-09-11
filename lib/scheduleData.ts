@@ -12,7 +12,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '6.30 - 7.30 pm', agenda: 'Dinner', venue: 'Prasadam Tent', type: 'meal' },
     { time: '7.30 pm', agenda: 'Adivas Ceremony', venue: 'Temple', type: 'ceremony' },
     { time: '8.00 pm', agenda: 'VIP guests seated/ garland ceremony', venue: 'Temple', type: 'ceremony' },
-    { time: '', agenda: 'Speeches:\\nHG Patitapavana Caitanya prabhu\\nHG Lokabandhu Gauranga prabhu, ISKCON Malaysia President\\nHG Simheswara prabhu, Co-Regional Secretary ISKCON Malaysia\\nHG Ciranjiva prabhu, Co-Regional Secretary ISKCON Malaysia\\nHH Bhanu Swami, Co-Zonal Secretary for Malaysia\\nHH Jayapataka Swami, Co-Zonal Secretary for Malaysia', venue: 'Temple', type: 'session' },
+    { time: '', agenda: 'Speeches:\\nHG Patitapavana Caitanya prabhu\\nHG Lokabandhu Gauranga prabhu, ISKCON Malaysia President\\nHG Ciranjiva prabhu, Co-Regional Secretary ISKCON Malaysia\\nHG Simheswara prabhu, Co-Regional Secretary ISKCON Malaysia\\nHH Bhanu Swami, Co-Zonal Secretary for Malaysia\\nHH Jayapataka Swami, Co-Zonal Secretary for Malaysia', venue: 'Temple', type: 'session' },
     
   ],
   2: [
