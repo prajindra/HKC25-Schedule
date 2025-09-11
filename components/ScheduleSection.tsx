@@ -100,7 +100,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
   const isNitaiPriya = (agenda: string) => {
     return activeDay === 2 && agenda.toLowerCase().includes('nitai priya') && agenda.toLowerCase().includes('yoga');
   };
-  // Function to check if session involves HG Pavan Nitai prabhu (only for Youth Yoga Session on Day 2)
+  // Function to check if session involves HG Pavan Nitai prabhu
   const isPavanNitai = (agenda: string) => {
     return agenda.toLowerCase().includes('pavan nitai');
   };
@@ -505,7 +505,7 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                           {isPavanNitai(session.agenda) && (
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                               <img
-                                src="h/images/speakers/PavanNitai.png"
+                                src="/images/speakers/PavanNitai.png"
                                 alt="HG Pavan Nitai prabhu"
                                 className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                               />
