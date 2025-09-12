@@ -21,7 +21,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '5.45 am', agenda: 'Japa session', venue: 'Temple Hall', type: 'kirtan' },
     { time: '7.30 am', agenda: 'Darshan Arati', venue: 'Temple Hall', type: 'ceremony' },
     { time: '7.45 am', agenda: 'Guru Puja', venue: 'Temple Hall', type: 'ceremony' },
-    { time: '8.00 am', agenda: 'Srimad Bhagavatam (HH Jayapataka Swami Maharaj with Tamil translation)', venue: 'Temple Hall', type: 'session' },
+    { time: '8.00 am', agenda: 'Srimad Bhagavatam (English) HH BVV Narasimha Swami (with Tamil translation)', venue: 'Temple Hall', type: 'session' },
     { time: '8.45 am', agenda: 'Announcements', venue: 'Temple Hall', type: 'session' },
     { time: '9.00 - 10.00 am', agenda: 'Breakfast', venue: 'Prasadam Tent', type: 'meal' },
     { time: '10.15 am', agenda: 'English Session 1 - Outreach Preaching: Strategies to Sustain and Expand (HG Sankarsana Gaura prabhu)', venue: 'Temple Hall', type: 'session' },
