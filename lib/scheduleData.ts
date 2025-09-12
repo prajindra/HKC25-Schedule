@@ -37,7 +37,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '4.45 pm', agenda: 'English Workshop 1 - Bhakti-vrksha & Beyond: Cultivating Devotees, Not Just Crowds HG Devakinandan prabhu)', venue: 'Sri Bala Murugan Temple Hall', type: 'workshop' },
     { time: '4.45 pm', agenda: 'Tamil Workshop 2 - Unite, Empower, Transform - A Spiritual Launch for the Tamil Speaking Community (HG Jagadhananda prabhu)', venue: 'Multi-purpose Hall', type: 'workshop' },
     { time: '4.45 pm', agenda: 'Youth Session 3 -  From Reels to Mission: Being a Devotee Online - Part 2 (HH Bhakti Vinoda Swami)', venue: 'Prasadam Hall', type: 'workshop' },
-    { time: '4.45 pm', agenda: 'Chinese Devotees Session (HH BVV Narasimha Swami)', venue: 'Temple Hall', type: 'workshop' },
+    
     { time: '6.00 - 7.00 pm', agenda: 'Dinner', venue: 'Prasadam Tent', type: 'meal' },
     { time: '7.00 pm', agenda: 'Launching Ceremony with VIPs + Cake Cutting Ceremony (MPH)', venue: 'Multi-purpose Hall', type: 'ceremony' },
     { time: '7.30 pm', agenda: 'Plenary Session with ISKCON Swamis: Preserving Srila Prabhupada\'s Legacy by Preaching Krishna Consciousness (with Tamil translation)', venue: 'Multi-purpose Hall', type: 'session' },
@@ -70,7 +70,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '4.45 pm', agenda: 'Workshop 3 English Session - Quality Sadhana & Philosophy: Foundation of becoming Good Devotees (HH Bhakti Prachar Parivrajak Swami)', venue: 'Temple Hall', type: 'session' },
     { time: '4.45 pm', agenda: 'Workshop 4 Tamil Session - Training and Tools for Effective Outreach (HG Jagat Sakshi prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '4.45 pm', agenda: 'Youth Session 6 - From Reels to Mission: Being a Devotee Online - Part 3 (HH Bhakti Vinoda Swami)', venue: 'Conference Hall', type: 'workshop' },
-    { time: '4.45 pm', agenda: 'Bengali Session (HH Bhakti Prachar Parivrajak Swami)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
+    { time: '4.45 pm', agenda: 'Chinese Devotees Session (HH BVV Narasimha Swami)', venue: 'Temple Hall', type: 'workshop' },
     
     { time: '6.00 - 7.00 pm', agenda: 'Dinner', venue: 'Prasadam Tent', type: 'meal' },
     { time: '7.00 pm', agenda: 'Preaching best practices', venue: 'Multi-purpose Hall', type: 'session' },
