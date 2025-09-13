@@ -66,7 +66,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '12.30 pm', agenda: 'English Session 10 - Studying Srila Prabhupada\'s Books Systematically: The Key to Empowered Preaching (HH Bhakti Vinoda Swami)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
     { time: '1.30 - 2.30 pm', agenda: 'Lunch', venue: 'Prasadam Tent', type: 'meal' },
     { time: '3.00 - 4.30 pm', agenda: 'Rest', venue: '-', type: 'break' },
-    { time: '2.00 pm - 3.15 pm', agenda: 'HH JPS Special Instructions (HG Vrajeswar Gauranga Prabhu)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
+    { time: '2.00 pm - 3.15 pm', agenda: 'HH JPS Special Instructions for Senior Disciples(HG Vrajeswar Gauranga Prabhu)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
     { time: '3.15 pm - 4.30 pm', agenda: 'Temple Presidents/Leaders Workshop - How to Increase Sunday Feast Participation (HG Yaduraj Prabhu)', venue: 'Sri Bala Murugan Temple Hall', type: 'session' },
     { time: '4.45 pm', agenda: 'Workshop 3 English Session - Quality Sadhana & Philosophy: Foundation of becoming Good Devotees (HH Bhakti Prachar Parivrajak Swami)', venue: 'Temple Hall', type: 'session' },
     { time: '4.45 pm', agenda: 'Workshop 4 Tamil Session - Training and Tools for Effective Outreach (HG Jagat Sakshi prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
