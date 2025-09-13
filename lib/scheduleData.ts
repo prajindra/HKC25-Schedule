@@ -55,7 +55,7 @@ export const scheduleData: { [key: number]: ScheduleItem[] } = {
     { time: '8.45 am', agenda: 'Announcements', venue: 'Temple Hall', type: 'session' },
     { time: '9.00 - 10.00 am', agenda: 'Breakfast', venue: 'Prasadam Tent', type: 'meal' },
     { time: '10.00 am', agenda: 'Preaching best practices', venue: 'Multi-purpose Hall', type: 'session' },
-    { time: '10.30 am', agenda: 'Successful Preaching Strategy: Sharing from ISKCON Tirupalai, Madurai (HG Vamsidhari prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
+    { time: '10.30 am - 11.05am', agenda: 'Successful Preaching Strategy: Sharing from ISKCON Tirupalai, Madurai (HG Vamsidhari prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '11.15 am', agenda: 'English Session 5 - Diksha Tradition: the Connection to Preach (HH Bhanu Swami)', venue: 'Temple Hall', type: 'session' },
     { time: '11.15 am', agenda: 'Tamil Session 3 - No One is Small: Every Devotee is a Force of Change based on Ramayana (HG Jagat Sakshi prabhu)', venue: 'Multi-purpose Hall', type: 'session' },
     { time: '11.15 am', agenda: 'Youth Session 4 - Bhakti That Connects: Reaching Your Generation (HG Devakinandan prabhu)', venue: 'Conference Hall', type: 'session' },
