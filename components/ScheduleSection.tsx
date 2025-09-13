@@ -105,6 +105,11 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
     return agenda.toLowerCase().includes('pavan nitai');
   };
 
+  // Function to check if session involves HG Vamsidhari prabhu
+  const isVamsidhari = (agenda: string) => {
+    return agenda.toLowerCase().includes('vamsidhari');
+  };
+
   return (
     <section className="py-16 px-4">
       <div className="max-w-7xl mx-auto">
@@ -198,6 +203,17 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                         <img
                           src="/images/speakers/Jagadhananda.png"
                           alt="HG Jagadhananda prabhu"
+                          className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                        />
+                      </div>
+                    )}
+
+                    {/* Centered image at top for HG Vamsidhari prabhu */}
+                    {isVamsidhari(item.agenda) && (
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                        <img
+                          src="/images/speakers/Vamsidhari.png"
+                          alt="HG Vamsidhari prabhu"
                           className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                         />
                       </div>
@@ -386,6 +402,17 @@ export default function ScheduleSection({ activeDay, setActiveDay }: ScheduleSec
                               <img
                                 src="/images/speakers/MahaVarahav2.png"
                                 alt="HG Maha Varaha prabhu"
+                                className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
+                              />
+                            </div>
+                          )}
+
+                          {/* Centered image at top for HG Vamsidhari prabhu */}
+                          {isVamsidhari(session.agenda) && (
+                            <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
+                              <img
+                                src="/images/speakers/Vamsidhari.png"
+                                alt="HG Vamsidhari prabhu"
                                 className="w-16 h-16 rounded-full object-cover border-4 border-purple-500 bg-white shadow-lg"
                               />
                             </div>
